@@ -57,3 +57,10 @@ onMounted(() => {
 })
 </script>
 ```
+
+```
+\_\_dirname，process等 报undefind 设置以下
+env: {
+node: true
+}
+```
