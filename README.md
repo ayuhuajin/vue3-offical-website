@@ -45,3 +45,15 @@ with(引入后)
 const count = ref(0)
 const doubled = computed(() => count.value \* 2)
 ```
+
+```
+引入vite-plugin-vue-setup-extend插件
+
+<script lang="ts" setup name="OrderList">
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  console.log('mounted===')
+})
+</script>
+```
