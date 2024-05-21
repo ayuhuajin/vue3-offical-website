@@ -33,3 +33,15 @@ npm run build
 ```sh
 npm run lint
 ```
+
+```sh
+引入 unplugin-auto-import插件
+without(没引入前)
+import { computed, ref } from 'vue'
+const count = ref(0)
+const doubled = computed(() => count.value \* 2)
+
+with(引入后)
+const count = ref(0)
+const doubled = computed(() => count.value \* 2)
+```
