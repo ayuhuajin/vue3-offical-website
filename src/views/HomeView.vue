@@ -36,7 +36,7 @@ function getCode() {
 // })
 </script>
 
-<!-- <style lang="scss" scoped>
+<style lang="scss" scoped>
 #id {
   color: red;
 }
@@ -45,4 +45,4 @@ function getCode() {
     color: blue;
   }
 }
-</style> -->
+</style>
